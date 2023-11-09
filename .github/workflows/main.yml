@@ -5,13 +5,13 @@ on:
     inputs:
       ROM_URL:
         description: "ROM_URL"
-        default: "https://pixeldrain.com/api/file/WdArNVpq"
+        default: "https://bigota.d.miui.com/V14.0.3.0.TLUINXM/miui_ROCKINGlobal_V14.0.3.0.TLUINXM_a7d3a01208_13.0.zip"
       DEVICE_NAME:
         description: "DEVICE_NAME"
-        default: "spes"
+        default: "rock"
       EXTRACTED_FILES:
         description: "EXTRACTED_FILES"
-        default: "boot.img, dtbo.img, product.img, system.img, system_ext.img"
+        default: "boot.img, dtbo.img, product.img, system.img, system_ext.img, vendor.img"
 
 jobs:
   build-and-release:
